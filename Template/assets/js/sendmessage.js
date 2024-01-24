@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Make a POST request to your backend to handle sending email
     // You'll need to implement this part using a backend service, like Node.js, PHP, etc.
     // Example using fetch API:
-    fetch('http://127.0.0.1:8000/api/sendmessage/', {
+    fetch('https://backend.ncdpug.org/api/sendmessage/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
